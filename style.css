@@ -209,6 +209,9 @@ p {
 strong {
 	font-weight: 700;
 }
+small {
+	vertical-align: super;
+}
 [class*=lap] {
 	position: relative;
 	height: 650px;
