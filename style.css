@@ -182,24 +182,33 @@ li:hover .icon4:after{
 }
 .leftmenu {
 	border: solid white;
-	border-width: 0px 1px 1px 0px;
+	border-width: 0px 1px 0px 0px;
 	height: 845px;
+	background-color: rgba(255,255,255,0.20);
 }
 .items {
 	font-size: 14px;
-	padding: 20px;
+	padding: 10px;
 	color: rgba(255,255,255,0.65);
 }
 h2 {
 	font-size: 48px;
 	color: white;
 	padding-top: 25px;
+	padding-left: 9px;
 }
 h3 {
 	margin: 15px;
 	color: white;
 	font-size: 23px;
-
+}
+h4 {
+	font-size: 21px;
+	color: white;
+	font-weight: 700;
+	font-family: 'Roboto';
+	padding-top: 33px;
+	padding-left: 30px;
 }
 p {
 	color: white;
@@ -291,7 +300,7 @@ small {
 	border: 1px solid white;
 	margin-left: 29px;
 }
-.details, .addToCart {
+.details, .addToCart, .submit {
 	font-family: 'Roboto';
 	font-size: 21px;
 	font-weight: 700;
@@ -307,7 +316,48 @@ small {
 	margin-left: 29px;
 	margin-top: 15px;
 }
-.details:hover, .addToCart:hover {
+.details:hover, .addToCart:hover, .submit:hover {
 	background-color: rgba(255,255,255, 0.20);
 }
+input[type="checkbox"] {
+	display: none;
+}
+label:before {
+	content: "";
+	display: block;
+	width: 8px;
+	height: 8px;
+	border: 1px solid white;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 10px;
+}
+input[type="checkbox"]:checked + label:before {
+	background-color: white;
+}
+.checkbox {
+	color: white;
+	font-weight: 300;
+	padding: 20px 0 0 29px;
+}
+.submit {
+	text-align: center;
+	height: 48px;
+	width: 208px;
+	background: transparent;
+	border: 1px solid white;
+	margin-left: 45px;
+	margin-top: 15px;
+	background-color: #2c71b8;
+}
+.options {
+		padding: 21px 0 21px 37px;
+}
+.options a{
+	font-size: 16px;
+	font-weight: 300;
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto';
 
+}	
