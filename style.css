@@ -9,6 +9,9 @@ header {
 	padding: 25px 0;
 	background-color: rgba(255,255,255,0.75)
 }
+footer {
+	background-color: rgba(255,255,255,0.75)
+}
 .container {
 	width: 1170px;
 	margin: 0 auto;
@@ -245,7 +248,29 @@ small {
 	background: rgba(255,255,255,0.75);
 	border-bottom: 1px solid white;
 }
+.pictureslotX {
+	position: absolute;
+	background-color: transparent;
+	display: block;
+}
+.pictureslotX:before, .pictureslotX:after {
+	position: absolute;
+	left: 133px;
+	top: -69px;
+	content: ' ';
+	height: 316px;
+	width: 2px;
+	background-color: white;
+	color: red;
+}
+.pictureslotX:before {
+	transform: rotate(56deg);
+}
+.pictureslotX:after {
+	transform: rotate(-56deg);
+}
 .merch {
+	display: block;
 	position: absolute;
 	top: 50%;
   	left: 50%;
@@ -319,6 +344,18 @@ small {
 .details:hover, .addToCart:hover, .submit:hover {
 	background-color: rgba(255,255,255, 0.20);
 }
+.load {
+	display: block;
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-family: 'Roboto';
+	font-size: 36px;
+	font-weight: 300;
+	outline: none;
+	margin: 0 auto;
+	margin-bottom: 90px;
+}
 input[type="checkbox"] {
 	display: none;
 }
@@ -360,4 +397,12 @@ input[type="checkbox"]:checked + label:before {
 	color: white;
 	font-family: 'Roboto';
 
-}	
+}
+.copyright p {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-size: 21px;
+	color: #2c71b8;
+	font-weight: 300;
+	text-align: center;
+}
