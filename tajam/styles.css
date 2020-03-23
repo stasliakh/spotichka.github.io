@@ -20,6 +20,10 @@ body {
 	background-image: url(images/img16.png);
 	background-size: cover;
 }
+.background4 {
+	background-image: url(images/img34.png);
+	background-size: cover;
+}
 .over {
 	background-image: url(images/img1.png);
 	background-size: cover;
@@ -74,6 +78,18 @@ body {
 	flex-direction: row;
 	justify-content: center;
 	margin: 0 auto;
+}
+.container8 {
+	height: 400px;
+	display: flex;
+	margin: 0 auto;
+	width: 940px;
+}
+.footer {
+	width: 940px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
 }
 .header {
 	width: 100%;
@@ -551,6 +567,9 @@ body {
 .workerslider img{
 	padding-left: 14px;
 }
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!! .workerslider img:first-child {
+	padding-right: 1110px;
+}*/
 .feedback {
 	display: flex;
 	flex-direction: column;
@@ -583,7 +602,7 @@ form input, form textarea {
 	text-align: top;
 	resize: none;
 }
-.formName input::placeholder, .formEmail input::placeholder, .formSubject input::placeholder, .fMessage textarea::placeholder {
+.formName input::placeholder, .formEmail input::placeholder, .formSubject input::placeholder, .fMessage textarea::placeholder, .newsetter input::placeholder {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
@@ -620,4 +639,146 @@ form button:hover {
 	background-color: #00e0d0;
 	color: white;
 	cursor: pointer;
+}
+.logoss {
+	display: flex;
+	flex-direction: column;
+	padding-top: 70px;
+}
+.logoss img:last-child {
+	padding-left: 11px;
+	padding-bottom: 10px;
+}
+.logoss p {
+	padding-top: 27px; 
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: white;
+	text-align: left;
+	width: 285px;
+}
+.adres p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: white;
+	text-align: left;
+	width: 240px;
+}
+.adress {
+	margin-left: 36px;
+}
+.adres,.phone {
+	display: flex;
+}
+.adres p {
+	text-align: left;
+	padding-top: 42px;
+	padding-left: 16px;
+	line-height: 1.5;
+}
+.adress h5, .touch h5 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 15px;
+	color: white;
+	padding-top: 90px;
+}
+.positionicon {
+	background: url(images/img35.png) 50% 50% no-repeat;
+	height: 19px;
+	width: 14px;
+	margin-top: 42px;
+}
+.phone {
+	margin-top: 27px;
+}
+.phoneicon {
+	background: url(images/img36.png) 50% 50% no-repeat;
+	height: 17px;
+	width: 17px;
+}
+.phone p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: white;
+	margin-left: 15px;
+}
+.touch {
+	display: flex;
+	flex-direction: column;
+	margin-left: 62px;
+}
+.newsetter input {
+	margin-top: 39px;
+	height: 45px;
+	width: 209px;
+	border: 1px solid #9d98af;
+	background: transparent;
+}
+.newsetter {
+	display: flex;
+}
+.newsetter input::placeholder {
+	padding-left: 15px;
+	color: #cecbd7;
+}
+.newsetter button {
+	margin: 39px 0 0 10px;
+	background: url(images/img37.png) 50% 50% no-repeat;
+	height: 45px;
+	width: 70px;
+	border: none;
+	background-color: rgb(255,255,255,0.50);
+}
+.socicons div {
+	margin-right: 8px;
+	width: 33px;
+  	height: 33px;
+	border: 1px solid white;
+	border-radius: 50%;
+	background-color: transparent;
+	padding: 0;
+	cursor: pointer;
+}
+.socicons {
+	display: flex;
+	flex-direction: row;
+	margin-top: 27px;
+}
+.icon6 {
+	background: url(images/img39.png) 50% 50% no-repeat;
+}
+.icon7 {
+	background: url(images/img40.png) 50% 50% no-repeat;
+}
+.icon8 {
+	background: url(images/img41.png) 50% 50% no-repeat;
+}
+.icon9 {
+	background: url(images/img42.png) 50% 50% no-repeat;
+}
+.icon10 {
+	background: url(images/img43.png) 50% 50% no-repeat;
+}
+.icon11 {
+	background: url(images/img44.png) 50% 50% no-repeat;
+}
+.menu2 ul{
+	display: flex;
+}
+.menu2 a, .copyright p {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: white;
+} 
+.menu2 li {
+	padding: 0 34px 72px 0;
+}
+.copyright p {
+	text-align: end;
 }
