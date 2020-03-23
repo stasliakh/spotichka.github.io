@@ -12,7 +12,7 @@ body {
 	background-image: url(images/img6.png);
 	background-size: cover;
 }
-.background3 {	
+.background3 {	container5
 	background-image: url(images/img14.png);
 	background-size: cover;
 }
@@ -355,7 +355,7 @@ body {
 	color: white;
 }
 .line3 {
-	height: 2px;
+	height: 1px;
 	width: 50px;
 	background-color: #c6c4c9;
 	margin: 0 auto;	
@@ -513,6 +513,10 @@ body {
 	line-height: 38px;
 	outline: none;
 }
+.container5 button:hover {
+	background-color: #00e0d0;
+	color: white;
+}
 .quotes {
 	margin: 0 auto;
 	margin-top: 67px;
@@ -608,8 +612,8 @@ form input, form textarea {
 	font-size: 14px;
 	color: #a09ea5;
 }
-.fMessage textarea::placeholder {
-	padding-top: 21px;
+.fMessage textarea {
+	padding-top: 10px;
 }
 .logos {
 	padding-top: 35px;
@@ -657,6 +661,7 @@ form button:hover {
 	color: white;
 	text-align: left;
 	width: 285px;
+	line-height: 1.8;
 }
 .adres p {
 	font-family: 'Roboto', sans-serif;
@@ -676,7 +681,7 @@ form button:hover {
 	text-align: left;
 	padding-top: 42px;
 	padding-left: 16px;
-	line-height: 1.5;
+	line-height: 1.8;
 }
 .adress h5, .touch h5 {
 	font-family: 'Roboto', sans-serif;
@@ -717,12 +722,13 @@ form button:hover {
 	width: 209px;
 	border: 1px solid #9d98af;
 	background: transparent;
+	color: white;
+	padding-left: 15px;
 }
 .newsetter {
 	display: flex;
 }
 .newsetter input::placeholder {
-	padding-left: 15px;
 	color: #cecbd7;
 }
 .newsetter button {
@@ -733,7 +739,10 @@ form button:hover {
 	border: none;
 	background-color: rgb(255,255,255,0.50);
 }
-.socicons div {
+.newsetter button:hover {
+	background-color: #00e0d0;
+}
+.socIcons div {
 	margin-right: 8px;
 	width: 33px;
   	height: 33px;
@@ -743,7 +752,14 @@ form button:hover {
 	padding: 0;
 	cursor: pointer;
 }
-.socicons {
+.socIcons div:hover {
+	border: 1px solid #00e0d0;
+	border-radius: 50%;
+	background-color: #00e0d0;
+	padding: 0;
+	cursor: pointer;
+}
+.socIcons {
 	display: flex;
 	flex-direction: row;
 	margin-top: 27px;
@@ -776,6 +792,9 @@ form button:hover {
 	font-size: 14px;
 	color: white;
 } 
+.menu2 a:hover {
+	color: #00e0d0;
+}
 .menu2 li {
 	padding: 0 34px 72px 0;
 }
