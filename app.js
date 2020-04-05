@@ -20,6 +20,9 @@ for(let i = 0; i < likeMe.length;i++) {
 //Cлайдер 
 $('.slider-block').slick({
 	dots:true,
+	  autoplay: true,
+ 	 autoplaySpeed: 2000,
+
 });
 // Селектор
 $('#sortBy').selectize({
