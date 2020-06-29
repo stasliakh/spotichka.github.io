@@ -1,70 +1,72 @@
 .slick-slide {
-	outline: none;
+  outline: none;
 }
 .slick-dotted.slick-slider {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 /*Точки!*/
 .slick-dots {
-	bottom: 29px;
+  bottom: 29px;
 }
 .slick-dots li button:before {
-	content: " ";
-	height: 8px;
-	width: 8px;
-	color: white;
-	border: 1px solid white;
+  content: " ";
+  height: 8px;
+  width: 8px;
+  color: white;
+  border: 1px solid white;
 }
 .slick-dots li.slick-active button:before {
-	background-color: white;
+  background-color: white;
 }
 .slick-dots li button {
-	padding: 0;
+  padding: 0;
 }
 .slick-dots li {
-    position: relative;
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    margin: 0 15px;
-    padding: 0;
-    cursor: pointer;
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin: 0 15px;
+  padding: 0;
+  cursor: pointer;
 }
 .slick-dots li button {
-    font-size: 0;
-    line-height: 0;
-    display: block;
-    width: 8px;
-    height: 8px;
-    padding: 0;
-    cursor: pointer;
-    color: transparent;
-    border: 0;
-    outline: none;
-    background: transparent;
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 8px;
+  height: 8px;
+  padding: 0;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
 }
 .slider-block img {
-	margin: 0 auto;
+  margin: 0 auto;
 }
 /*Стрелки!!!*/
 .slick-prev:before {
-    content: ' ';
-    background: url(images/icon24.png) no-repeat 50% 50%;
-     background-size: 100%;
+  content: " ";
+  background: url(images/icon24.png) no-repeat 50% 50%;
+  background-size: 100%;
 }
 .slick-next:before {
-    content: ' ';
-    background: url(images/icon25.png) no-repeat 50% 50%;
-    background-size: 100%;
+  content: " ";
+  background: url(images/icon25.png) no-repeat 50% 50%;
+  background-size: 100%;
 }
-.slick-prev:before, .slick-next:before {
-	display: block;
-	width: 34px;
-    height: 52px;
-    opacity: 1;
+.slick-prev:before,
+.slick-next:before {
+  display: block;
+  width: 34px;
+  height: 52px;
+  opacity: 1;
 }
-.slick-prev, .slick-next {
-	width: 34px;
-	height: 52px;
-	opacity: 1;
+.slick-prev,
+.slick-next {
+  width: 34px;
+  height: 52px;
+  opacity: 1;
 }

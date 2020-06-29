@@ -415,6 +415,89 @@
 .footer > .container > div {
   justify-content: space-between;
 }
+/* FORM------------------------------- */
+.modal {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+}
+
+.modal_block {
+  background-color: #fff;
+  width: 280px;
+  margin: 160px auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.modal_block span {
+  padding-left: 6px;
+  padding-bottom: 10px;
+  color: #8d8f92;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 700;
+}
+.form__name,
+.form__phone {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.form__name {
+  padding: 10px 4px 10px 10px;
+}
+.form__phone {
+  padding: 10px 10px 10px 4px;
+}
+.form__message {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 10px 10px 10px;
+}
+.modal_block input {
+  background-color: #eaeef1;
+  border: #eaeef1 1px;
+  height: 44px;
+  width: 100%;
+  border-radius: 3px;
+  padding: 10px;
+  outline: #23b7a4;
+}
+.form__message input {
+  height: 80px;
+}
+.modal_block button {
+  display: block;
+  margin: 10px auto;
+  color: white;
+  width: 150px;
+  height: 45px;
+  border-radius: 5px;
+  background-color: #23b7a4;
+  outline: none;
+  border-style: none;
+}
+.arrow_up {
+  visibility: hidden;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  height: 100px;
+  width: 100px;
+  background-image: url(./images/arrow_up.png);
+  background-size: cover;
+}
+.visibility {
+  visibility: visible;
+}
 /* table */
 
 @media (min-width: 768px) {
@@ -430,6 +513,28 @@
   }
   .touch__inner {
     background-position: 50% 29%;
+  }
+  .modal_block {
+    width: 555px;
+    margin: 130px auto;
+  }
+  .form__name {
+    padding: 30px 8px 30px 30px;
+  }
+  .form__phone {
+    padding: 30px 30px 30px 8px;
+  }
+  .form__message {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 30px 30px 30px;
+  }
+  .modal_block button {
+    margin: 0 0 30px 30px;
+  }
+  .form__message input {
+    height: 160px;
   }
 }
 
@@ -457,6 +562,9 @@
 
   .last2 {
     margin: 0 auto;
+  }
+  .modal_block {
+    margin: 100px auto;
   }
 }
 
