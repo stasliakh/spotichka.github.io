@@ -22,3 +22,18 @@ function onScroll() {
 }
 
 document.addEventListener("scroll", onScroll);
+
+const adittionalContent = document.querySelectorAll(".showContent");
+
+const showMoreBtn = document.querySelector(".lovely-gallery__button");
+
+// showMoreBtn.addEventListener("click", () => {
+//   adittionalContent.classList.toggle("aditional__block");
+// });
+
+for (let i = 0; i < adittionalContent.length; i++) {
+  showMoreBtn.addEventListener("click", () => {
+    adittionalContent[i].classList.toggle("aditional");
+    // adittionalContent[i].classList.toggle(".aditional__block");
+  });
+}

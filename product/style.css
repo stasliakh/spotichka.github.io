@@ -288,6 +288,13 @@
   margin-left: auto;
   margin-right: auto;
 }
+.aditional__block {
+  display: block;
+}
+.aditional {
+  display: none;
+}
+
 .lovely-gallery__place-for-button {
   padding-bottom: 60px;
 }
@@ -303,6 +310,11 @@
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
+  outline: none;
+}
+.lovely-gallery__button:hover {
+  border-color: #23b7a4;
+  background-color: #23b7a4;
 }
 .card {
   display: flex;
@@ -398,6 +410,7 @@
   background-color: #23b7a4;
   outline: none;
   border-style: none;
+  cursor: pointer;
 }
 .footer {
   font-size: 14px;
@@ -421,9 +434,10 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
+  z-index: 10;
 }
 
 .modal_block {
@@ -488,12 +502,13 @@
 .arrow_up {
   visibility: hidden;
   position: fixed;
-  top: 50%;
-  right: 0;
+  top: 75%;
+  right: 2%;
   height: 100px;
   width: 100px;
-  background-image: url(./images/arrow_up.png);
+  background-image: url(./images/arrow-up.png);
   background-size: cover;
+  border-radius: 100px;
 }
 .visibility {
   visibility: visible;
