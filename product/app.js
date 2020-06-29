@@ -34,6 +34,9 @@ const showMoreBtn = document.querySelector(".lovely-gallery__button");
 for (let i = 0; i < adittionalContent.length; i++) {
   showMoreBtn.addEventListener("click", () => {
     adittionalContent[i].classList.toggle("aditional");
-    // adittionalContent[i].classList.toggle(".aditional__block");
+    showMoreBtn.innerHTML =
+      showMoreBtn.innerHTML === "SHOW ME MORE"
+        ? (showMoreBtn.innerHTML = "HIDE ELSE")
+        : (showMoreBtn.innerHTML = "SHOW ME MORE");
   });
 }
