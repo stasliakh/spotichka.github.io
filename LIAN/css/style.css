@@ -417,13 +417,13 @@ footer {
     align-self: unset;
   }
   .slide_text__header {
-    font-size: 48px;
+    font-size: 22px;
     line-height: 24px;
     padding: 11px 47px;
   }
   .slide__text span {
     margin-top: 12px;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 24px;
     letter-spacing: 7.2px;
   }
@@ -455,8 +455,6 @@ footer {
     padding: 26px 46px 23px 0;
   }
 
-  /* 
-  Menuha dsadasdasdasdasdsadasd */
   .menu_wrapper {
     display: block;
   }
@@ -509,6 +507,9 @@ footer {
     font-size: 13px;
     line-height: 26px;
   }
+  .show_case__menu-burger {
+    display: none;
+  }
 }
 
 /* laptop */
@@ -516,8 +517,16 @@ footer {
   .container {
     max-width: 960px;
   }
-  .show_case__menu-burger {
-    display: none;
+  .slide_text__header {
+    font-size: 38px;
+    line-height: 24px;
+    padding: 11px 47px;
+  }
+  .slide__text span {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 7.2px;
   }
 }
 
@@ -525,6 +534,17 @@ footer {
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+  .slide_text__header {
+    font-size: 48px;
+    line-height: 24px;
+    padding: 11px 47px;
+  }
+  .slide__text span {
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 7.2px;
   }
 }
 
