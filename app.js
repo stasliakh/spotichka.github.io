@@ -86,3 +86,17 @@ showModal.addEventListener("click", (e) => {
     showModal.classList.remove("visibility");
   }
 });
+
+// modal on scroll
+const halfOfSite = document.documentElement.scrollHeight / 2;
+
+function openModal() {
+  showModal.classList.add("visibility");
+}
+
+document.addEventListener("scroll", function remuveEvent() {
+  if (window.scrollY >= halfOfSite) {
+    openModal();
+    document.removeEventListener("scroll", remuveEvent);
+  }
+});

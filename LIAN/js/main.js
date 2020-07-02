@@ -1,3 +1,5 @@
+// Slider
+
 $(function () {
   $(".main__slider").slick({
     prevArrow: '<button type="button" class="slick-btn slick-prev"></button>',
@@ -7,5 +9,13 @@ $(function () {
     fade: false,
     dots: true,
     adaptiveHeight: true,
+  });
+});
+
+// Burger
+
+$(document).ready(function () {
+  $(".show_case__menu-burger").click(function (event) {
+    $(".show_case__menu-burger,.menu_wrapper").toggleClass("active");
   });
 });

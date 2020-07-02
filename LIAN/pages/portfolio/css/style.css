@@ -340,6 +340,10 @@ main {
   display: flex;
   justify-content: space-between;
 }
+.side__photos img {
+  width: 178px;
+  height: 119px;
+}
 .portfolio_works__title {
   font-size: 30px;
   letter-spacing: 12px;
