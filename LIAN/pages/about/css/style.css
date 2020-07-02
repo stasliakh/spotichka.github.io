@@ -229,8 +229,6 @@ main {
   border-right: 7px solid transparent;
 }
 
-/* dsadsadasdlaslkdas------------------------------------------------- */
-
 .team {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -266,7 +264,7 @@ main {
   margin-bottom: 20px;
 }
 .employee_card__description {
-  max-width: 358px;
+  max-width: 100%;
   background-color: #ffffff;
   padding: 35px 42px 31px 35px;
   font-family: "Roboto";
@@ -452,7 +450,13 @@ footer {
     height: auto;
   }
   .employee_card {
-    margin-bottom: 0;
+    margin-bottom: 20px;
+  }
+  .employee_card__description {
+    max-width: 358px;
+    background-color: #ffffff;
+    padding: 35px 42px 31px 35px;
+    font-family: "Roboto";
   }
   .footer__logo {
     padding-top: 64px;
@@ -483,10 +487,29 @@ footer {
     padding-top: 72px;
     padding-bottom: 26px;
   }
-  .story__inner {
+
+  .team__content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: unset;
+    flex-wrap: wrap;
+  }
+  .heading__wrapper {
+    background-position: center;
+  }
+  .heading__inner {
+    background-color: rgba(235, 235, 235, 0);
+  }
+  .employee_card {
+    align-self: center;
+    margin-bottom: 20px;
+  }
+}
+/* desktop */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
   }
   .story__inner img {
     width: auto;
@@ -498,19 +521,15 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     align-items: unset;
+    flex-wrap: nowrap;
   }
-  .heading__wrapper {
-    background-position: center;
+  .employee_card {
+    margin-bottom: 0;
   }
-  .heading__inner {
-    background-color: rgba(235, 235, 235, 0);
-  }
-}
-
-/* desktop */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
+  .story__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
 
