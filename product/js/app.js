@@ -36,3 +36,4 @@ for (let i = 0; i < adittionalContent.length; i++) {
         : (showMoreBtn.innerHTML = "SHOW ME MORE");
   });
 }
+AOS.init();
