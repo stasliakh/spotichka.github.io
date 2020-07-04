@@ -37,3 +37,18 @@ for (let i = 0; i < adittionalContent.length; i++) {
   });
 }
 AOS.init();
+
+const options = {
+  type: "carousel",
+  startAt: 0,
+  perView: 3,
+  breakpoints: {
+    768: {
+      perView: 2,
+    },
+    425: {
+      perView: 1,
+    },
+  },
+};
+new Glide(".glide", options).mount();
